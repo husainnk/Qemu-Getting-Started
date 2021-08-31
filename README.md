@@ -13,3 +13,10 @@ Some Benefits of qcow2
     - Optional zlib based compression
     - Optional AES encryption
 
+#### Cloud Image
+Not specific to QEMU, but you might come up with this term while trying QEMU.
+For installing linux distribution like ubuntu, we usually use the installer image and follow the steps in the installer and configure the OS for our requirement.
+Its takes more than a hour and it is fine for single desktop. But in servers, there will be a lot of devices and you cannot follow the desktop installation for each device.
+So the cloud image, comes with pre-installed configurations that is easier to setup in servers and also in QEMU.
+
+
